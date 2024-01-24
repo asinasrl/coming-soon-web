@@ -1,7 +1,7 @@
 
-# OTP Verification
+# Demo Countdown Page
 
-DEMO System that Performs OTP Verification for Applications or Websites.
+Demo Countdown Tool for Your Website
 
 ## Screenshots
 
