@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(pexels-felix-mittermeier-956999.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.area {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  border-radius: 15px;
+  text-align: center;
+}
+.area h1 {
+  color: #fff;
+  font-size: 4.4rem;
+  padding-bottom: 2rem;
+}
+.area p {
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.time-area {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+}
+.time #days,
+#hours,
+#minutes,
+#seconds {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.text {
+  color: #fff;
+}
+.subs h2 {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.form input {
+  width: 240px;
+  height: 40px;
+  padding: 1rem;
+  margin-right: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.form input:focus {
+  outline: none;
+}
+.form input::placeholder {
+  color: #fff;
+}
+.form button {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#timeisup {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
